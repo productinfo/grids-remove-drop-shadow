@@ -34,14 +34,14 @@
 		1617570619791C930063F1C9 /* PersonDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataSource.m; sourceTree = "<group>"; };
 		1617570819791CBD0063F1C9 /* NSArray+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Util.h"; sourceTree = "<group>"; };
 		1617570919791CBD0063F1C9 /* NSArray+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Util.m"; sourceTree = "<group>"; };
-		720494D216AA8AE000751EDC /* GettingStarted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingStarted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720494D216AA8AE000751EDC /* RemoveDropShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoveDropShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720494D616AA8AE000751EDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		720494D816AA8AE000751EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		720494DA16AA8AE000751EDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		720494DE16AA8AE000751EDC /* GettingStarted-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GettingStarted-Info.plist"; sourceTree = "<group>"; };
+		720494DE16AA8AE000751EDC /* RemoveDropShadow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoveDropShadow-Info.plist"; sourceTree = "<group>"; };
 		720494E016AA8AE000751EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		720494E216AA8AE000751EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		720494E416AA8AE000751EDC /* GettingStarted-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GettingStarted-Prefix.pch"; sourceTree = "<group>"; };
+		720494E416AA8AE000751EDC /* RemoveDropShadow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoveDropShadow-Prefix.pch"; sourceTree = "<group>"; };
 		720494E516AA8AE000751EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		720494E616AA8AE000751EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		720494E816AA8AE000751EDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		720494C716AA8AE000751EDC = {
 			isa = PBXGroup;
 			children = (
-				720494DC16AA8AE000751EDC /* GettingStarted */,
+				720494DC16AA8AE000751EDC /* RemoveDropShadow */,
 				720494D516AA8AE000751EDC /* Frameworks */,
 				720494D316AA8AE000751EDC /* Products */,
 			);
@@ -83,7 +83,7 @@
 		720494D316AA8AE000751EDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				720494D216AA8AE000751EDC /* GettingStarted.app */,
+				720494D216AA8AE000751EDC /* RemoveDropShadow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		720494DC16AA8AE000751EDC /* GettingStarted */ = {
+		720494DC16AA8AE000751EDC /* RemoveDropShadow */ = {
 			isa = PBXGroup;
 			children = (
 				1617570219791C880063F1C9 /* PersonDataObject.h */,
@@ -117,16 +117,16 @@
 				720494F116AA8AE000751EDC /* ViewController.xib */,
 				720494DD16AA8AE000751EDC /* Supporting Files */,
 			);
-			path = GettingStarted;
+			path = RemoveDropShadow;
 			sourceTree = "<group>";
 		};
 		720494DD16AA8AE000751EDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				720494DE16AA8AE000751EDC /* GettingStarted-Info.plist */,
+				720494DE16AA8AE000751EDC /* RemoveDropShadow-Info.plist */,
 				720494DF16AA8AE000751EDC /* InfoPlist.strings */,
 				720494E216AA8AE000751EDC /* main.m */,
-				720494E416AA8AE000751EDC /* GettingStarted-Prefix.pch */,
+				720494E416AA8AE000751EDC /* RemoveDropShadow-Prefix.pch */,
 				720494E816AA8AE000751EDC /* Default.png */,
 				720494EA16AA8AE000751EDC /* Default@2x.png */,
 				720494EC16AA8AE000751EDC /* Default-568h@2x.png */,
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		720494D116AA8AE000751EDC /* GettingStarted */ = {
+		720494D116AA8AE000751EDC /* RemoveDropShadow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 720494F616AA8AE000751EDC /* Build configuration list for PBXNativeTarget "GettingStarted" */;
+			buildConfigurationList = 720494F616AA8AE000751EDC /* Build configuration list for PBXNativeTarget "RemoveDropShadow" */;
 			buildPhases = (
 				720494CE16AA8AE000751EDC /* Sources */,
 				720494CF16AA8AE000751EDC /* Frameworks */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = GettingStarted;
-			productName = GettingStarted;
-			productReference = 720494D216AA8AE000751EDC /* GettingStarted.app */;
+			name = RemoveDropShadow;
+			productName = RemoveDropShadow;
+			productReference = 720494D216AA8AE000751EDC /* RemoveDropShadow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Colin Eberhardt";
 			};
-			buildConfigurationList = 720494CC16AA8AE000751EDC /* Build configuration list for PBXProject "GettingStarted" */;
+			buildConfigurationList = 720494CC16AA8AE000751EDC /* Build configuration list for PBXProject "RemoveDropShadow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				720494D116AA8AE000751EDC /* GettingStarted */,
+				720494D116AA8AE000751EDC /* RemoveDropShadow */,
 			);
 		};
 /* End PBXProject section */
@@ -292,9 +292,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GettingStarted/GettingStarted-Prefix.pch";
-				INFOPLIST_FILE = "GettingStarted/GettingStarted-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RemoveDropShadow/RemoveDropShadow-Prefix.pch";
+				INFOPLIST_FILE = "RemoveDropShadow/RemoveDropShadow-Info.plist";
+				PRODUCT_NAME = RemoveDropShadow;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -308,9 +308,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GettingStarted/GettingStarted-Prefix.pch";
-				INFOPLIST_FILE = "GettingStarted/GettingStarted-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RemoveDropShadow/RemoveDropShadow-Prefix.pch";
+				INFOPLIST_FILE = "RemoveDropShadow/RemoveDropShadow-Info.plist";
+				PRODUCT_NAME = RemoveDropShadow;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		720494CC16AA8AE000751EDC /* Build configuration list for PBXProject "GettingStarted" */ = {
+		720494CC16AA8AE000751EDC /* Build configuration list for PBXProject "RemoveDropShadow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				720494F416AA8AE000751EDC /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		720494F616AA8AE000751EDC /* Build configuration list for PBXNativeTarget "GettingStarted" */ = {
+		720494F616AA8AE000751EDC /* Build configuration list for PBXNativeTarget "RemoveDropShadow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				720494F716AA8AE000751EDC /* Debug */,
