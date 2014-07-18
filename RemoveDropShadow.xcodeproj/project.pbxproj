@@ -11,6 +11,7 @@
 		1617570419791C880063F1C9 /* PersonDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570319791C880063F1C9 /* PersonDataObject.m */; };
 		1617570719791C930063F1C9 /* PersonDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570619791C930063F1C9 /* PersonDataSource.m */; };
 		1617570A19791CBD0063F1C9 /* NSArray+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570919791CBD0063F1C9 /* NSArray+Util.m */; };
+		1617570E19791FFC0063F1C9 /* SGridCell+RemoveShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570D19791FFC0063F1C9 /* SGridCell+RemoveShadow.m */; };
 		720494D716AA8AE000751EDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720494D616AA8AE000751EDC /* UIKit.framework */; };
 		720494D916AA8AE000751EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720494D816AA8AE000751EDC /* Foundation.framework */; };
 		720494DB16AA8AE000751EDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720494DA16AA8AE000751EDC /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 		1617570619791C930063F1C9 /* PersonDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataSource.m; sourceTree = "<group>"; };
 		1617570819791CBD0063F1C9 /* NSArray+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Util.h"; sourceTree = "<group>"; };
 		1617570919791CBD0063F1C9 /* NSArray+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Util.m"; sourceTree = "<group>"; };
+		1617570C19791FFC0063F1C9 /* SGridCell+RemoveShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SGridCell+RemoveShadow.h"; sourceTree = "<group>"; };
+		1617570D19791FFC0063F1C9 /* SGridCell+RemoveShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SGridCell+RemoveShadow.m"; sourceTree = "<group>"; };
 		720494D216AA8AE000751EDC /* RemoveDropShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoveDropShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720494D616AA8AE000751EDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		720494D816AA8AE000751EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +107,8 @@
 		720494DC16AA8AE000751EDC /* RemoveDropShadow */ = {
 			isa = PBXGroup;
 			children = (
+				1617570C19791FFC0063F1C9 /* SGridCell+RemoveShadow.h */,
+				1617570D19791FFC0063F1C9 /* SGridCell+RemoveShadow.m */,
 				1617570219791C880063F1C9 /* PersonDataObject.h */,
 				1617570319791C880063F1C9 /* PersonDataObject.m */,
 				1617570519791C930063F1C9 /* PersonDataSource.h */,
@@ -204,6 +209,7 @@
 				1617570719791C930063F1C9 /* PersonDataSource.m in Sources */,
 				1617570A19791CBD0063F1C9 /* NSArray+Util.m in Sources */,
 				1617570419791C880063F1C9 /* PersonDataObject.m in Sources */,
+				1617570E19791FFC0063F1C9 /* SGridCell+RemoveShadow.m in Sources */,
 				720494E716AA8AE000751EDC /* AppDelegate.m in Sources */,
 				720494F016AA8AE000751EDC /* ViewController.m in Sources */,
 			);
