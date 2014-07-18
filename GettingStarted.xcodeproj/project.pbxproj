@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168730EA17E705FF005888E1 /* ShinobiGrids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168730E917E705FF005888E1 /* ShinobiGrids.framework */; };
+		1617570119791C3E0063F1C9 /* ShinobiGrids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1617570019791C3E0063F1C9 /* ShinobiGrids.framework */; };
+		1617570419791C880063F1C9 /* PersonDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570319791C880063F1C9 /* PersonDataObject.m */; };
+		1617570719791C930063F1C9 /* PersonDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570619791C930063F1C9 /* PersonDataSource.m */; };
+		1617570A19791CBD0063F1C9 /* NSArray+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1617570919791CBD0063F1C9 /* NSArray+Util.m */; };
 		720494D716AA8AE000751EDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720494D616AA8AE000751EDC /* UIKit.framework */; };
 		720494D916AA8AE000751EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720494D816AA8AE000751EDC /* Foundation.framework */; };
 		720494DB16AA8AE000751EDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720494DA16AA8AE000751EDC /* CoreGraphics.framework */; };
@@ -19,15 +22,18 @@
 		720494ED16AA8AE000751EDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720494EC16AA8AE000751EDC /* Default-568h@2x.png */; };
 		720494F016AA8AE000751EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720494EF16AA8AE000751EDC /* ViewController.m */; };
 		720494F316AA8AE000751EDC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720494F116AA8AE000751EDC /* ViewController.xib */; };
-		7204959316AD82F600751EDC /* PersonDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204959016AD82F600751EDC /* PersonDataObject.m */; };
-		7204959416AD82F600751EDC /* PersonDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204959216AD82F600751EDC /* PersonDataSource.m */; };
-		7220B99A16EF35540002AE65 /* NSArray+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7220B99916EF35540002AE65 /* NSArray+Util.m */; };
 		72FDA44016F8B21B00D08DBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FDA43F16F8B21B00D08DBB /* QuartzCore.framework */; };
 		F4BD88CB1727F2AC001404AF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BD88CA1727F2AC001404AF /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		168730E917E705FF005888E1 /* ShinobiGrids.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiGrids.framework; path = ../../../ShinobiGrids.framework; sourceTree = "<group>"; };
+		1617570019791C3E0063F1C9 /* ShinobiGrids.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiGrids.framework; path = Library/Frameworks/ShinobiGrids.framework; sourceTree = DEVELOPER_DIR; };
+		1617570219791C880063F1C9 /* PersonDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataObject.h; sourceTree = "<group>"; };
+		1617570319791C880063F1C9 /* PersonDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataObject.m; sourceTree = "<group>"; };
+		1617570519791C930063F1C9 /* PersonDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataSource.h; sourceTree = "<group>"; };
+		1617570619791C930063F1C9 /* PersonDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataSource.m; sourceTree = "<group>"; };
+		1617570819791CBD0063F1C9 /* NSArray+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Util.h"; sourceTree = "<group>"; };
+		1617570919791CBD0063F1C9 /* NSArray+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Util.m"; sourceTree = "<group>"; };
 		720494D216AA8AE000751EDC /* GettingStarted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingStarted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720494D616AA8AE000751EDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		720494D816AA8AE000751EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,12 +50,6 @@
 		720494EE16AA8AE000751EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		720494EF16AA8AE000751EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		720494F216AA8AE000751EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		7204958F16AD82F600751EDC /* PersonDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataObject.h; sourceTree = "<group>"; };
-		7204959016AD82F600751EDC /* PersonDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataObject.m; sourceTree = "<group>"; };
-		7204959116AD82F600751EDC /* PersonDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDataSource.h; sourceTree = "<group>"; };
-		7204959216AD82F600751EDC /* PersonDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDataSource.m; sourceTree = "<group>"; };
-		7220B99816EF35540002AE65 /* NSArray+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Util.h"; sourceTree = "<group>"; };
-		7220B99916EF35540002AE65 /* NSArray+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Util.m"; sourceTree = "<group>"; };
 		72FDA43F16F8B21B00D08DBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F4BD88CA1727F2AC001404AF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -59,10 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1617570119791C3E0063F1C9 /* ShinobiGrids.framework in Frameworks */,
 				F4BD88CB1727F2AC001404AF /* Security.framework in Frameworks */,
 				72FDA44016F8B21B00D08DBB /* QuartzCore.framework in Frameworks */,
 				720494D716AA8AE000751EDC /* UIKit.framework in Frameworks */,
-				168730EA17E705FF005888E1 /* ShinobiGrids.framework in Frameworks */,
 				720494D916AA8AE000751EDC /* Foundation.framework in Frameworks */,
 				720494DB16AA8AE000751EDC /* CoreGraphics.framework in Frameworks */,
 			);
@@ -74,7 +74,6 @@
 		720494C716AA8AE000751EDC = {
 			isa = PBXGroup;
 			children = (
-				7204958E16AD82F600751EDC /* Common */,
 				720494DC16AA8AE000751EDC /* GettingStarted */,
 				720494D516AA8AE000751EDC /* Frameworks */,
 				720494D316AA8AE000751EDC /* Products */,
@@ -92,7 +91,7 @@
 		720494D516AA8AE000751EDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				168730E917E705FF005888E1 /* ShinobiGrids.framework */,
+				1617570019791C3E0063F1C9 /* ShinobiGrids.framework */,
 				72FDA43F16F8B21B00D08DBB /* QuartzCore.framework */,
 				720494D616AA8AE000751EDC /* UIKit.framework */,
 				720494D816AA8AE000751EDC /* Foundation.framework */,
@@ -105,6 +104,12 @@
 		720494DC16AA8AE000751EDC /* GettingStarted */ = {
 			isa = PBXGroup;
 			children = (
+				1617570219791C880063F1C9 /* PersonDataObject.h */,
+				1617570319791C880063F1C9 /* PersonDataObject.m */,
+				1617570519791C930063F1C9 /* PersonDataSource.h */,
+				1617570619791C930063F1C9 /* PersonDataSource.m */,
+				1617570819791CBD0063F1C9 /* NSArray+Util.h */,
+				1617570919791CBD0063F1C9 /* NSArray+Util.m */,
 				720494E516AA8AE000751EDC /* AppDelegate.h */,
 				720494E616AA8AE000751EDC /* AppDelegate.m */,
 				720494EE16AA8AE000751EDC /* ViewController.h */,
@@ -127,20 +132,6 @@
 				720494EC16AA8AE000751EDC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7204958E16AD82F600751EDC /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				7220B99816EF35540002AE65 /* NSArray+Util.h */,
-				7220B99916EF35540002AE65 /* NSArray+Util.m */,
-				7204958F16AD82F600751EDC /* PersonDataObject.h */,
-				7204959016AD82F600751EDC /* PersonDataObject.m */,
-				7204959116AD82F600751EDC /* PersonDataSource.h */,
-				7204959216AD82F600751EDC /* PersonDataSource.m */,
-			);
-			name = Common;
-			path = ../Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +160,7 @@
 		720494C916AA8AE000751EDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Colin Eberhardt";
 			};
 			buildConfigurationList = 720494CC16AA8AE000751EDC /* Build configuration list for PBXProject "GettingStarted" */;
@@ -210,11 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				720494E316AA8AE000751EDC /* main.m in Sources */,
+				1617570719791C930063F1C9 /* PersonDataSource.m in Sources */,
+				1617570A19791CBD0063F1C9 /* NSArray+Util.m in Sources */,
+				1617570419791C880063F1C9 /* PersonDataObject.m in Sources */,
 				720494E716AA8AE000751EDC /* AppDelegate.m in Sources */,
 				720494F016AA8AE000751EDC /* ViewController.m in Sources */,
-				7204959316AD82F600751EDC /* PersonDataObject.m in Sources */,
-				7204959416AD82F600751EDC /* PersonDataSource.m in Sources */,
-				7220B99A16EF35540002AE65 /* NSArray+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +235,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -264,6 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -273,7 +264,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -299,6 +289,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GettingStarted/GettingStarted-Prefix.pch";
@@ -314,6 +305,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GettingStarted/GettingStarted-Prefix.pch";
