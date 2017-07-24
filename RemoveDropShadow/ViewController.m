@@ -30,7 +30,7 @@
 {
     [super viewDidLoad];
 
-    [ShinobiDataGrids setLicenseKey:@"your license key"]; // TODO: add your trial license key here!
+    [ShinobiDataGrids setTrialKey:@"your trial key"]; // TODO: add your trial key here!
     
     // create a grid - with a 40 pixel padding
     _shinobiDataGrid = [[ShinobiDataGrid alloc] initWithFrame:CGRectInset(self.view.bounds, 40,40)];
